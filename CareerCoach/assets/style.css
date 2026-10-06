@@ -1,0 +1,165 @@
+
+/* CareerCoach Light / White Theme */
+.stApp {
+    background: #ffffff !important;
+    color: #172033 !important;
+}
+
+[data-testid="stAppViewContainer"] {
+    background: #ffffff !important;
+}
+
+[data-testid="stHeader"] {
+    background: #ffffff !important;
+}
+
+[data-testid="stSidebar"] {
+    background: #f7f9fc !important;
+    border-right: 1px solid #e5e7eb;
+}
+
+[data-testid="stSidebar"] * {
+    color: #172033 !important;
+}
+
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+}
+
+.hero {
+    padding: 30px;
+    border-radius: 22px;
+    background: linear-gradient(135deg, #f8fbff, #ffffff);
+    border: 1px solid #dbe5f1;
+    box-shadow: 0 8px 30px rgba(30, 64, 175, 0.08);
+}
+
+.hero h1 {
+    font-size: 46px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    background: linear-gradient(90deg, #2563eb, #7c3aed, #0891b2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    color: #64748b;
+    font-size: 17px;
+}
+
+.small-muted {
+    color: #64748b;
+}
+
+.chat-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #172033;
+}
+
+.question-card {
+    padding: 24px;
+    border-radius: 18px;
+    border: 1px solid #dbe5f1;
+    background: #f8fafc;
+    color: #172033;
+    margin: 12px 0;
+    box-shadow: 0 5px 18px rgba(15, 23, 42, 0.05);
+}
+
+.timer {
+    padding: 10px 16px;
+    border-radius: 12px;
+    background: #fff1f2;
+    border: 1px solid #fecdd3;
+    color: #be123c;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.result-pass {
+    color: #059669;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.result-fail {
+    color: #dc2626;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* Inputs */
+[data-testid="stTextInput"] input,
+[data-testid="stTextArea"] textarea,
+[data-testid="stChatInput"] textarea {
+    background: #ffffff !important;
+    color: #172033 !important;
+    border: 1px solid #cbd5e1 !important;
+    border-radius: 10px !important;
+}
+
+[data-testid="stChatInput"] {
+    background: #ffffff !important;
+}
+
+/* Select boxes */
+[data-baseweb="select"] > div {
+    background: #ffffff !important;
+    color: #172033 !important;
+    border-color: #cbd5e1 !important;
+}
+
+/* General text */
+p, label, h1, h2, h3, h4, h5, h6 {
+    color: #172033;
+}
+
+/* Buttons */
+.stButton > button {
+    border-radius: 10px;
+    border: 0;
+    background: linear-gradient(90deg, #2563eb, #7c3aed);
+    color: white !important;
+    font-weight: 700;
+    min-height: 42px;
+    box-shadow: 0 5px 15px rgba(37, 99, 235, 0.18);
+}
+
+.stButton > button:hover {
+    background: linear-gradient(90deg, #1d4ed8, #6d28d9);
+    color: white !important;
+}
+
+/* Metrics/cards */
+[data-testid="stMetric"] {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+/* Chat messages */
+[data-testid="stChatMessage"] {
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+/* Info / success / warning boxes */
+[data-testid="stAlert"] {
+    border-radius: 12px;
+}
+
+/* Tabs */
+button[data-baseweb="tab"] {
+    color: #475569 !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #2563eb !important;
+}
